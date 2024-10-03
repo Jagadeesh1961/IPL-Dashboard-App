@@ -1,0 +1,101 @@
+.latest-match-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #0f172a;
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.left-container {
+}
+
+.image-left-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .image-left-container {
+    width: 60%;
+  }
+}
+
+.competingTeam {
+  font-size: 28px;
+  font-family: 'Bree Serif';
+  font-weight: 300;
+}
+
+.date {
+  font-size: 22px;
+  font-family: 'Bree Serif';
+}
+
+.venue {
+  font-size: 16px;
+  font-family: 'Bree Serif';
+  font-weight: 200;
+}
+
+.result {
+  font-size: 16px;
+  font-family: 'Bree Serif';
+  font-weight: 200;
+}
+
+.competingTeamLogo {
+  width: 120px;
+  height: 120px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .competingTeamLogo {
+    width: 220px;
+  }
+}
+
+.separator {
+  width: 100%;
+  border: 1px solid #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .separator {
+    display: none;
+  }
+}
+
+.right-container {
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .right-container {
+    text-align: right;
+    width: 40%;
+  }
+}
+
+.right-headings {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+}
+
+.right-answers {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: 'Bree Serif';
+}

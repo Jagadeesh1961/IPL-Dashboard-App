@@ -1,0 +1,48 @@
+.match-card-container {
+  list-style-type: none;
+  background-color: #0f172a;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  width: 100%;
+  max-width: 250px;
+}
+
+.match-card-logo {
+  height: 120px;
+  width: 100px;
+}
+
+.match-card-name {
+  color: white;
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.match-card-result {
+  color: white;
+  text-align: center;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.lost {
+  color: #e31a1a;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 16px;
+}
+.win {
+  color: #18ed66;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 16px;
+}
